@@ -1,0 +1,120 @@
+#resume{
+    text-align: center;
+    color: blue;
+}
+
+#menu{
+padding: 0;
+margin: 0;
+text-decoration: none;
+list-style: none;
+}
+
+body{
+  font-family: Helvetica;
+  background-color: #b8e9ee;
+  width: 99%
+}
+
+#nav{
+  height: 80px;
+  width: 100%;
+  background: #34495e;
+}
+
+label.logo{
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+  padding: 0 100px;
+  line-height: 80px;
+}
+
+#nav ul{
+  float:right;
+  margin-right: 40px;
+}
+
+#nav li{
+  display: inline-block;
+  margin: 0 8px;
+  line-height: 80px;
+}
+#nav a{
+  color: white;
+  font-size: 18px;
+  text-transform: uppercase;
+  border: 1px solid transparent;
+  padding: 7px 10px;
+  border-radius: 3px;
+}
+
+a.active, a:hover{
+  border: 1px solid white;
+  transition: .5s;
+}
+@media (max-width: 900px) {
+  nav ul{
+    margin-right: 20px;
+  }
+  nav a{
+    font-size: 17px;
+  }
+}
+.tb{
+  width: 1500px;
+  height: 1300px;
+  margin: 5px auto;
+  position: relative;
+}
+
+#tb1, #tb2, #tb3, #tb4{
+  height: 700px;
+  width: 700px;
+  margin: 5px;
+}
+#tb1{
+  position: absolute;
+  left: 5px;
+  top: 0px;
+}
+#tb2{
+  position: absolute;
+  right: 5px;
+  top: 0px;
+}
+#tb3{
+  position: absolute;
+  bottom: 0px;
+  left: 5px;
+}
+#tb4{
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
+
+figcaption{
+  margin: 15px;
+}
+.social{
+  text-align: center;
+  padding-bottom: 1px;
+}
+#footer .social a{
+  font-size: 30px;
+  color:black;
+  border: 1px solid #ccc;
+  width: 40px;
+  height: 40px;
+  line-height: 38px;
+  text-align: center;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  margin:0 8px;
+}
+#footer p{
+  text-align: center;
+  font-size: 13px;
+}

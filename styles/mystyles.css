@@ -1,0 +1,15 @@
+section{
+  width: 70% ;
+  position:relative;
+  margin: auto;
+}
+section p{
+  font-family: helvetica;
+  font-size: 18px;
+  text-align: left;
+}
+
+ol,ul,li{
+  font-family: helvetica;
+  font-size: 18px;
+}
